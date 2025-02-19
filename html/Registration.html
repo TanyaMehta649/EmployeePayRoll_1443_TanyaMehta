@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll</title>
+    <link rel="stylesheet" href="../css/Registration.css">
+</head>
+<body>
+    <div class="container">
+        <div class="emp-reg-header-cnt">
+            <div class="logo">
+                <a href="./Dashboard.html">
+                <img src="../assests/logo.jpg"></a>
+            </div>
+
+            <div class="heading">
+                <h4>EMPLOYEE</h4>
+                <h4 class="brPayroll">PAYROLL</h4>
+            </div>
+        </div>
+
+        <div class="emp-dash-main-cnt">
+            <div class="formTitle">
+                <h1>Employee Payroll Form</h1>
+            </div>
+            
+            <div class="form">
+                <form id="employeeForm">
+
+                    <div class="formName">
+                        <label>Name:</label>
+                        <div class="formNameText"><input type="text" class="textbox" id="name" required></div>
+                    </div>
+
+                    <div class="formProfileimg">
+                        <label>Profile Image:</label>
+                        <div class="profileimg-1">
+                            <div class="radio-btn"><input type="radio" class="radioProfile" name="profileImage" value="img1" >
+                            </div>
+
+                            <div class="radio-image">
+                                <img src="../assests/img1.jpg" class="circular1">
+                            </div>
+                        </div>
+
+                        <div class="profileimg-2">
+                            <div class="radio-btn"><input type="radio" class="radioProfile" name="profileImage" value="img2">
+                            </div>
+
+                            <div class="radio-image">
+                                <img src="../assests/img2.jpg" class="circular2">
+                            </div>
+                        </div>
+
+                        <div class="profileimg-3">
+                            <div class="radio-btn"><input type="radio" class="radioProfile" name="profileImage" value="img3">
+                            </div>
+
+                            <div class="radio-image">
+                            <img src="../assests/img3.jpg" class="circular3">
+                            </div>
+                        </div>
+
+                        <div class="profileimg-4">
+                            <div class="radio-btn"><input type="radio" class="radioProfile" name="profileImage" value="img4">
+                            </div>
+
+                            <div class="radio-image">
+                            <img src="../assests/img4.jpg" class="circular4">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="formGender">
+                        <label>Gender:</label>
+                        <div class="genderMale"><input type="radio" name="gender" value="male"><h6>Male</h6></div>
+                        <div class="genderFemale"><input type="radio" name="gender" value="female"><h6>Female</h6></div>
+                    </div>
+
+                    <div class="formDepartment">
+                        <label>Department:</label>
+                        <div class="DepartmentHR"><input type="checkbox" name="departments" value="HR">HR</div>
+                        <div class="DepartmentSales"><input type="checkbox" name="departments" value="Sales">Sales</div>
+                        <div class="DepartmentFinance"><input type="checkbox" name="departments" value="Finance">Finance</div>
+                        <div class="DepartmentEngineer"><input type="checkbox" name="departments" value="Engineer">Engineer</div>
+                        <div class="DepartmentOthers"><input type="checkbox" name="departments" value="Others">Others</div>
+                    </div>
+
+                    <div class="formSalary">
+                        <label>Salary:</label>
+                        <div class="selectSalary">
+                            <select id="salary">
+                                <option>Select Salary</option>
+                                <option value="10,000">10,000</option>
+                                <option value="20,000">20,000</option>
+                                <option value="30,000">30,000</option>
+                                <option value="40,000">40,000</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="formStartDate">
+                        <label>Start Date:</label>
+                        <div class="startDate">
+                            <select id="startDay">
+                                <option>Date</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                        </div>
+
+                        <div class="startMonth">
+                            <select id="startMonth">
+                                <option>Month</option>
+                                <option>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                            </select>
+                        </div>
+
+                        <div class="startYear">
+                            <select id="startYear">
+                                <option>Year</option>
+                                <option>2016</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="notes">
+                        <label>Notes:</label>
+                        <div class="notesTextArea">
+                            <textarea class="textarea" id="notes"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="emp-reg-btn-cnt">
+                        <div class="regCancelButton"><button class="greybtn" type="button" onclick="window.location.href='Dashboard.html'">Cancel</button></div>
+                        <div class="regSubmitButton"><button class="btn" type="submit">Submit</button></div>
+                        <div class="regResetButton"><button class="greybtn" type="reset">Reset</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#employeeForm").on("submit", function(e) {
+                e.preventDefault(); 
+
+                const employeeData = {
+                    "name": $("#name").val(),
+                    "gender": $("input[name='gender']:checked").val(),
+                    "salary": $("#salary").val(),
+                    "departments": $("input[name='departments']:checked").map(function() {
+                        return this.value;
+                    }).get(),
+                    "profileImage": $("input[name='profileImage']:checked").val(),
+                    "startDate": {
+                        "day": $("#startDay").val(),
+                        "month": $("#startMonth").val(),
+                        "year": $("#startYear").val()
+                    },
+                    "notes": $("#notes").val()
+                };
+
+            
+                $.ajax({
+                    url: 'http://localhost:5000/employees', 
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(employeeData), 
+                    success: function(response) {
+                        console.log('Employee added to JSON Server:', response);
+                        alert("Employee added successfully!");
+                    },
+                    error: function(error) {
+                        console.error('Error adding employee:', error);
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="../javascript/RegistrationForm.js"></script>
+</body>
+</html>

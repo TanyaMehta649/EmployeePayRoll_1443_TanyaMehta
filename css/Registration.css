@@ -1,0 +1,410 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.container {
+    background-color: #F7F7F7;
+    width: 100%;
+    
+    margin: 0 auto;
+}
+
+.emp-reg-header-cnt {
+    width: 100%;
+    height: 12vh;
+    background: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.logo {
+    margin-left: 3%;
+}
+
+.brPayroll {
+    margin-top: -15%;
+    color: #42515F;
+    font-size: 1.2rem;
+    line-height: 0.5; 
+}
+
+.heading
+ {
+    margin-left: 2%;
+    color: #82A70C;
+    font-size: 1.2rem;
+}
+
+.emp-dash-main-cnt {
+    margin-top: 4vh;
+    width: 40vw;
+    height: 80vh;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 2vh 5%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.formTitle,
+.formName,
+.formProfileimg,
+.formSalary,
+.formStartDate,
+.notes {
+    color: #42515F;
+    font-size: 1.1rem;
+}
+
+.formNameText {
+    margin-top: -3.0vh;
+    margin-left: 10%;
+}
+
+.textbox{
+    width: 32vw;
+    padding: 1%;
+}
+
+
+
+
+
+.formProfileimg{
+    display: flex;
+    gap: 3%;
+    margin-top: 5%;
+
+}
+
+.profileimg-1{
+    display: flex;
+}
+
+.profileimg-2{
+    display: flex;
+}
+.profileimg-3{
+    display: flex;
+}
+.profileimg-4{
+    display: flex;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(2); 
+    margin-right: 8px; 
+}
+
+.radio-btn{
+    margin-top:22% ;
+}
+
+.circular1,
+.circular2,
+.circular3,
+.circular4 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.formGender {
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.genderMale,
+.genderFemale {
+    display: flex;
+    margin-left: 2%;
+    font-size: 1.3rem;
+}
+
+
+.formDepartment {
+    display: flex;
+    margin-bottom: 2vh;
+    gap: 2%;
+}
+
+.DepartmentHR,
+.DepartmentSales,
+.DepartmentFinance,
+.DepartmentEngineer,
+.DepartmentOthers {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+
+.selectSalary {
+    margin-top: -2.5vh; 
+    margin-left: 20%;
+    margin-bottom: 3%;
+    height: 30%;
+    width: 30%;
+}
+
+.formStartDate {
+    display: flex;
+    margin-bottom: 10vh;
+    gap: 2%;
+}
+
+.startDate,
+.startMonth,
+.startYear {
+    margin-left: 1%;
+}
+
+
+.textarea {
+    margin-left: 10%;
+    margin-bottom: 2vh;
+    margin-top: -2vh;
+    height: 70px;
+    width: 252px;
+    
+}
+
+
+.emp-reg-btn-cnt {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 5%;
+}
+
+.btn {
+    padding: 1vh 2vw;
+    color: #42515F;
+    font-size: 1rem;
+}
+
+.greybtn {
+    padding: 1vh 2vw;
+    color: #42515F;
+    font-size: 1rem;
+}
+.btn:hover {
+    padding: 1.2vh 2.2vw;
+    background-color: #82A70C;
+    color: white;
+    font-size: 1rem;
+    border: white;
+}
+.greybtn:hover {
+    padding: 1.2vh 2.2vw;
+    background-color: grey;
+    color: white;
+    font-size: 1rem;
+    border: grey
+}
+
+.regSubmitButton {
+    margin-left: 20%;
+}
+
+.regResetButton {
+    margin-right: 1vw;
+}
+
+
+
+@media (max-width: 1200px) {
+    .emp-dash-main-cnt {
+        width: 50vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formTitle,
+    .formName,
+    .formProfileimg,
+    .formSalary,
+    .formStartDate,
+    .notes {
+        font-size: 0.5rem;
+    }
+
+    .formNameText {
+        margin-left: 5%;
+    }
+
+    .circular1,
+    .circular2,
+    .circular3,
+    .circular4 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .selectSalary {
+        margin-left: 10%;
+        width: 50%;
+    }
+
+    .emp-reg-btn-cnt {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .emp-dash-main-cnt {
+        width: 80vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2vh 3%;
+    }
+
+    .emp-reg-header-cnt {
+        padding: 0 3%;
+    }
+
+    .formTitle,
+    .formName,
+    .formProfileimg,
+    .formSalary,
+    .formStartDate,
+    .notes {
+        font-size: 0.95rem;
+    }
+
+    .formNameText {
+        margin-left: 5%;
+    }
+
+    .formProfileimg {
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+
+    .circular1,
+    .circular2,
+    .circular3,
+    .circular4 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .formGender {
+        flex-direction: row;
+        gap: 5%;
+    }
+
+    .formDepartment {
+        flex-wrap: wrap;
+    }
+
+    .emp-reg-btn-cnt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn,
+    .greybtn {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .logo {
+        margin-left: 3%;
+    }
+
+    .emp-dash-main-cnt {
+        width: 90vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3vh 5%;
+    }
+
+    .emp-reg-header-cnt {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2%;
+    }
+
+    .formTitle,
+    .formName,
+    .formProfileimg,
+    .formSalary,
+    .formStartDate,
+    .notes {
+        font-size: 0.85rem;
+    }
+
+    .formNameText {
+        margin-left: 0%;
+    }
+
+    .formProfileimg {
+        flex-direction: column;
+        gap: 1%;
+    }
+
+    .circular1,
+    .circular2,
+    .circular3,
+    .circular4 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .formGender {
+        flex-direction: column;
+    }
+
+    .genderMale,
+    .genderFemale {
+        margin-left: 0;
+    }
+
+    .formDepartment {
+        flex-direction: column;
+    }
+
+    .selectSalary {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .formStartDate {
+        flex-direction: column;
+    }
+
+    .notesTextArea {
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    .emp-reg-btn-cnt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn,
+    .greybtn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .regSubmitButton,
+    .regResetButton {
+        width: 60%;
+        text-align: center;
+    }
+}

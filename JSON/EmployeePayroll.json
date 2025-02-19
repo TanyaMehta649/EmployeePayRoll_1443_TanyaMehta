@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "name": "cherry",
+      "profileImage": "img3",
+      "gender": "male",
+      "departments": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "40,000",
+      "startDate": {
+        "day": "20",
+        "month": "April",
+        "year": "2016"
+      },
+      "notes": "cheery ameer hai",
+      "id": "2eb3"
+    },
+    {
+      "id": "daf1",
+      "name": "coco",
+      "profileImage": "img4",
+      "gender": "male",
+      "departments": [
+        "Sales"
+      ],
+      "salary": "10,000",
+      "startDate": {
+        "day": "17",
+        "month": "July",
+        "year": "2020"
+      },
+      "notes": " odkcdop kec"
+    }
+  ]
+}
